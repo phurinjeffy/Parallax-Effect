@@ -15,8 +15,8 @@ function App() {
   });
   const background5 = useTransform(scrollYProgress, [0, 1], ["0%", "70%"]);
   const background4 = useTransform(scrollYProgress, [0, 1], ["0%", "60%"]);
-  const background3 = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
-  const background2 = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
+  const background3 = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
+  const background2 = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
   const background1 = useTransform(scrollYProgress, [0, 1], ["0%", "0%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
 

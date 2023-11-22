@@ -13,17 +13,17 @@ function App() {
       <Parallax
         pages={2}
       >
-        <ParallaxLayer offset={0} speed={-2}>
+        <ParallaxLayer offset={0.1} speed={-2} className="text-center z-30">
           <div
-            className="font-bold text-gray-500 text-7xl md:text-9xl relative z-40 text-center"
+            className="font-bold text-gray-50 text-7xl md:text-9xl"
           >
             PARALLAX
-          </div>
+          </div>  
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0} speed={-0.7}>
+        <ParallaxLayer offset={0} speed={-0.7} className="z-0">
           <div
-            className="absolute inset-0 z-0"
+            className="absolute inset-0"
             style={{
               backgroundImage: `url(${Image5})`,
               // backgroundPosition: "bottom",
@@ -32,9 +32,9 @@ function App() {
           ></div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0} speed={-0.6}>
+        <ParallaxLayer offset={0} speed={-0.6} className="z-10">
           <div
-            className="absolute inset-0 z-10"
+            className="absolute inset-0"
             style={{
               backgroundImage: `url(${Image4})`,
               // backgroundPosition: "bottom",
@@ -43,9 +43,9 @@ function App() {
           ></div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0} speed={-0.4}>
+        <ParallaxLayer offset={0} speed={-0.4} className="z-20">
           <div
-            className="absolute inset-0 z-20"
+            className="absolute inset-0"
             style={{
               backgroundImage: `url(${Image3})`,
               // backgroundPosition: "bottom",
@@ -54,9 +54,9 @@ function App() {
           ></div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0} speed={-0.2}>
+        <ParallaxLayer offset={0} speed={-0.2} className="z-30">
           <div
-            className="absolute inset-0 z-30"
+            className="absolute inset-0"
             style={{
               backgroundImage: `url(${Image2})`,
               // backgroundPosition: "bottom",
@@ -65,9 +65,9 @@ function App() {
           ></div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0} speed={-0.1}>
+        <ParallaxLayer offset={0} speed={-0.1} className="z-40">
           <div
-            className="absolute inset-0 z-40"
+            className="absolute inset-0"
             style={{
               backgroundImage: `url(${Image1})`,
               // backgroundPosition: "bottom",
@@ -76,7 +76,7 @@ function App() {
           ></div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1} speed={0}>
+        <ParallaxLayer offset={1} speed={0} className="z-50">
           <div className="h-screen flex justify-center items-center bg-gradient-to-b from-slate-950 to-blue-950 text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
             cupiditate sit laboriosam natus alias laborum ratione sunt ut nisi

@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-neutral-100
+  @apply bg-gradient-to-r from-sky-900 to-slate-400
 }
